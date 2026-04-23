@@ -163,4 +163,4 @@ After:
 ## 🔒 Confidentiality Notice
 
 This project was developed for a client.  
-All sensitive data and source code are intentionally omitted due to NDA.
+All sensitive data and source code are intentionally omitted.
