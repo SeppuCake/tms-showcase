@@ -29,5 +29,6 @@ To streamline property management operations and automate communication with ten
 - Improved response time for maintenance issues
 - Automated tenant communication
 
-## Note
-Source code is private due to client NDA.
+## Confidentiality Notice
+This project description is shared for portfolio purposes only.  
+All sensitive data, internal logic, and source code are intentionally omitted.
