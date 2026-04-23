@@ -1,12 +1,15 @@
 # Tenant Management System (TMS)
 
 ## Overview
+
 Tenant Management System (TMS) is a web-based platform designed to manage tenants, payments, and maintenance operations for residential properties.
 
 ## Purpose
+
 To replace fragmented manual processes with a centralized system that improves visibility, financial tracking, and communication between management and tenants.
 
 ## Key Features
+
 - Tenant registration and management
 - Unit-based billing and payment tracking
 - Maintenance and complaint request system
@@ -16,12 +19,14 @@ To replace fragmented manual processes with a centralized system that improves v
 - Report generation (PDF)
 
 ## Tech Stack
+
 - Laravel (PHP Framework)
 - MySQL
 - JavaScript (jQuery, AJAX)
 - Bootstrap
 
 ## My Role
+
 - Sole developer (client-commissioned project)
 - Gathered requirements directly from client
 - Designed system workflows and database structure
@@ -30,6 +35,7 @@ To replace fragmented manual processes with a centralized system that improves v
 - Delivered complete working system
 
 ## Impact
+
 - Improved tracking of maintenance fees and payments
 - Reduced manual administrative workload
 - Automated tenant communication
@@ -39,49 +45,64 @@ To replace fragmented manual processes with a centralized system that improves v
 
 ## Screenshots
 
-### Dashboard
-Overview of system statistics such as occupancy, payments, and maintenance requests.
+### Dashboard / Main Navigation
+
+A centralized interface that gives management quick access to tenant, billing, complaint, and reporting modules.
 
 ![Dashboard](images/tms-dashboard.png)
 
 ---
 
-### Tenant Management
-Manage tenant profiles, unit assignments, and historical records.
+### Maintenance Requests
 
-![Tenant Management](images/tms-tenants.png)
+A complaint and maintenance management view used to track tenant-reported issues and follow-up actions.
+
+![Maintenance Requests](images/tms-complaints.png)
 
 ---
 
 ### Billing & Payments
-Track monthly charges, payment history, and outstanding balances.
 
-![Billing](images/tms-billing.png)
+A payment management module used to monitor charges, balances, and payment records by unit.
+
+![Billing & Payments](images/tms-billing-payments.png)
 
 ---
 
-### Maintenance Requests
-Submit, assign, and track maintenance issues.
+### Reports Overview
 
-![Maintenance](images/tms-maintenance.png)
+A reporting screen that helps management review payment, occupancy, and operational summaries.
+
+![Reports Overview](images/tms-reports-overview.png)
+
+---
+
+### Report Generation
+
+A module for generating exportable management reports for billing and operational review.
+
+![Report Generation](images/tms-report-generator.png)
 
 ---
 
 ### Notifications Module
-Send SMS and WhatsApp messages to tenants directly from the system.
 
-![Notifications](images/tms-notifications.png)
+A communication module used to send SMS and WhatsApp messages directly from the system.
+
+![Notifications Module](images/tms-notifications.png)
 
 ---
 
-### Reports & Analytics
-Generate PDF reports for management review.
+### Mobile View
 
-![Reports](images/tms-reports.png)
+A responsive mobile navigation view showing accessibility across smaller devices.
+
+![Mobile View](images/tms-mobile-view.png)
 
 ---
 
 ## System Flow
+
 Tenant submits request → System records data → Management reviews → Action assigned → Status updates → Completion & reporting
 
 ## Challenges & Solutions
@@ -105,11 +126,13 @@ Tenant submits request → System records data → Management reviews → Action
 ## Before vs After
 
 Before:
+
 - Manual records
 - No centralized tracking
 - Slow communication with tenants
 
 After:
+
 - Fully digital system
 - Real-time tracking
 - Automated messaging and reporting
@@ -138,5 +161,6 @@ After:
 - Introduce real-time notifications
 
 ## 🔒 Confidentiality Notice
+
 This project was developed for a client.  
 All sensitive data and source code are intentionally omitted due to NDA.
